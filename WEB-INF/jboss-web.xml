@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jboss-web>
+    <Resource name="bean/HelloWorld" auth="Container" type="com.ibytecode.businesslogic.HelloWorldBean"
+            factory="org.apache.naming.factory.BeanFactory"
+            bar="23"/>
+ </jboss-web>
